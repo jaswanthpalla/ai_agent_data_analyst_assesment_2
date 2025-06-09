@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+langchain
+langchain-huggingface
+python-docx
+python-dotenv
