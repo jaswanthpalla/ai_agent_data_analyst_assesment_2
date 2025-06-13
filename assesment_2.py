@@ -58,7 +58,7 @@ def inspect_data(df):
     duplicates = df.duplicated().sum() 
     print(f"Number of duplicate rows: {duplicates}")
     if duplicates > 0:
-        issues['Duplicate Rows'] = duplicates
+        issues['Duplicate Rows'] = int(duplicates)
 
 
     # outliers we can use IOR methods to underrstand outliers
